@@ -15,7 +15,8 @@ Solutions to the [Advent of Code 2015](https://adventofcode.com/2015) written in
 * [Day 4](src/day4.rs)
 * [Day 5](src/day5.rs)
 * [Day 6](src/day6.rs)
-* [Day &](src/day7.rs)
+* [Day 7](src/day7.rs)
+* [Day 8](src/day8.rs)
 
 ## License
 

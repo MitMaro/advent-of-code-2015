@@ -1,3 +1,5 @@
+use aoc_runner_derive::aoc;
+
 pub fn parse_input(input: &str) -> Vec<Vec<bool>> {
 	let mut grid = input
 		.lines()

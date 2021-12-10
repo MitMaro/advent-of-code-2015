@@ -1,3 +1,4 @@
+use aoc_runner_derive::aoc;
 use serde_json::Value;
 
 #[aoc(day12, part1)]

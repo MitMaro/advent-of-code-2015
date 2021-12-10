@@ -1,3 +1,5 @@
+use aoc_runner_derive::aoc;
+
 #[derive(Debug)]
 pub struct Aunt {
 	pub index: i32,

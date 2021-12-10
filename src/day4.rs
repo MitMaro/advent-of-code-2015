@@ -1,3 +1,4 @@
+use aoc_runner_derive::aoc;
 use md5::{Digest, Md5};
 
 #[aoc(day4, part1)]

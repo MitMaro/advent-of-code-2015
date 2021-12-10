@@ -1,5 +1,7 @@
 use std::cmp::max;
 
+use aoc_runner_derive::{aoc, aoc_generator};
+
 #[derive(Debug)]
 pub struct Ingredient {
 	pub capacity: i32,

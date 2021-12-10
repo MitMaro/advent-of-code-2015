@@ -1,3 +1,5 @@
+use aoc_runner_derive::{aoc, aoc_generator};
+
 enum State {
 	Normal,
 	Escape,

@@ -1,5 +1,4 @@
-// Make rustc's built-in lints more strict and set clippy into a whitelist-based configuration
-#![deny(
+#![warn(
 	warnings,
 	nonstandard_style,
 	unused,
@@ -7,15 +6,8 @@
 	rust_2018_idioms,
 	unsafe_code
 )]
-#![deny(clippy::all, clippy::cargo, clippy::nursery, clippy::pedantic, clippy::restriction)]
-#![allow(clippy::blanket_clippy_restriction_lints)]
 
-extern crate aoc_runner;
-#[macro_use]
-extern crate aoc_runner_derive;
-extern crate itertools;
-extern crate md5;
-extern crate serde_json;
+use aoc_runner_derive::aoc_lib;
 
 pub mod day1;
 pub mod day10;

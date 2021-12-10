@@ -1,5 +1,7 @@
 use std::collections::HashMap;
 
+use aoc_runner_derive::aoc;
+
 #[derive(Clone, Debug, PartialEq)]
 pub enum Operation {
 	And,

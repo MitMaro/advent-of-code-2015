@@ -1,5 +1,7 @@
-use itertools::Itertools;
 use std::collections::HashMap;
+
+use aoc_runner_derive::{aoc, aoc_generator};
+use itertools::Itertools;
 
 #[derive(Debug)]
 pub struct Location {

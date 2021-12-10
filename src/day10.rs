@@ -1,3 +1,5 @@
+use aoc_runner_derive::aoc;
+
 fn expand(input: &str) -> String {
 	let mut output = vec![];
 	let mut it = input.chars();

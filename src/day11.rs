@@ -1,3 +1,5 @@
+use aoc_runner_derive::aoc;
+
 fn array_to_string(i: &Vec<u8>) -> String {
 	let mut r = vec![];
 	for c in i.iter().take(i.len() - 1).rev() {
